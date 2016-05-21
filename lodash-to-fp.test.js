@@ -1,3 +1,5 @@
+const _ = require('lodash')
+
 // Iteratee Capped to one argument
 // should replace
 _.every([true, 1, null, 'yes'], Boolean);
@@ -58,3 +60,6 @@ _.add(1, 2)
 // Custom argument order
 // should not replace because not implemented
 _.assignInWith(1, 2, 3)
+
+// should replace
+_.noop
