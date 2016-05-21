@@ -1,5 +1,6 @@
 // Based on https://github.com/lodash/lodash/wiki/FP-Guide
 // Gunar C. Gessner (@gunar) 2016
+// http://astexplorer.net/#/ypBuZw7P0x/7
 
 // TODO
 // feat: add tests
