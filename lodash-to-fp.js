@@ -1,6 +1,7 @@
 // Based on https://github.com/lodash/lodash/wiki/FP-Guide
 // Gunar C. Gessner (@gunar) 2016
-// http://astexplorer.net/#/ypBuZw7P0x/7
+// https://github.com/gunar/js-transforms
+// http://astexplorer.net/#/ypBuZw7P0x/8
 
 // TODO
 // feat: add tests
