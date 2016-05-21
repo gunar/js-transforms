@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "jscodeshift -t lodash-to-lodashfp.js code.js",
-    "undo": "git checkout -- code.js"
+    "run": "jscodeshift -t lodash-to-fp.js lodash-to-fp.test.js"
   },
   "author": "",
   "license": "ISC",
