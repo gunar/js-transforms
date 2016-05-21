@@ -1,9 +1,19 @@
-// Based on https://github.com/lodash/lodash/wiki/FP-Guide
 // Gunar C. Gessner (@gunar) 2016
 // https://github.com/gunar/js-transforms
-// http://astexplorer.net/#/ypBuZw7P0x/14
+//
+// # Useful links
+//
+// - https://github.com/lodash/lodash/wiki/FP-Guide
+// - http://astexplorer.net/#/ypBuZw7P0x/14
+//
+// # README
+//
+// It helps you refactor a codebase from lodash to lodash/fp.
+// This scripts takes a "better safe than sorry" approach, as to try to minimize false positives.
+//   e.g. `_.mapValues(myValues, myFunctions)` doesn't get converted because I'd need to confirm myFunction's arity
+//        [lodash/fp's fixed arity](https://github.com/lodash/lodash/wiki/FP-Guide#fixed-arity)
 
-// TODO
+// # TODO
 // feat: add tests
 // feat:  add Aliases
 // feat: implement functions with custom argument order
