@@ -146,6 +146,7 @@ const fixedArityOne = {
   trim: true,
   trimEnd: true,
   trimStart: true,
+  uniq: true,
   uniqueId: true,
   words: true,
 }
